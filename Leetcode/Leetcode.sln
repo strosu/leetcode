@@ -29,6 +29,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinLinesForChart", "MinLine
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NonDecreasingArray", "NonDecreasingArray\NonDecreasingArray.csproj", "{701EE102-AABE-45F7-9752-A576F885CA28}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CanReach", "CanReach\CanReach.csproj", "{4A5D1A30-E0C3-47EF-9AB9-DCBDE9D976B9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JumpGameV", "JumpGameV\JumpGameV.csproj", "{BA39033D-6331-45A3-B701-42D8D96F016E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +91,14 @@ Global
 		{701EE102-AABE-45F7-9752-A576F885CA28}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{701EE102-AABE-45F7-9752-A576F885CA28}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{701EE102-AABE-45F7-9752-A576F885CA28}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A5D1A30-E0C3-47EF-9AB9-DCBDE9D976B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A5D1A30-E0C3-47EF-9AB9-DCBDE9D976B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A5D1A30-E0C3-47EF-9AB9-DCBDE9D976B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A5D1A30-E0C3-47EF-9AB9-DCBDE9D976B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA39033D-6331-45A3-B701-42D8D96F016E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA39033D-6331-45A3-B701-42D8D96F016E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA39033D-6331-45A3-B701-42D8D96F016E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA39033D-6331-45A3-B701-42D8D96F016E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
