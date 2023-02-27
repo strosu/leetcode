@@ -49,6 +49,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "866.PrimePalindrome", "866 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1654.MinJumps", "1654.MinJumps\1654.MinJumps.csproj", "{4AC717BE-76AF-4D1A-B3F5-334AD4D3049D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1361.ValidBinaryTree", "1361.ValidBinaryTree\1361.ValidBinaryTree.csproj", "{CECF20BA-035E-41D3-BF54-BCFE96C2A492}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mathworks", "Mathworks\Mathworks.csproj", "{201568A6-D9BD-4C35-8F44-3BD5CE2FE8B2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -147,6 +151,14 @@ Global
 		{4AC717BE-76AF-4D1A-B3F5-334AD4D3049D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4AC717BE-76AF-4D1A-B3F5-334AD4D3049D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4AC717BE-76AF-4D1A-B3F5-334AD4D3049D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CECF20BA-035E-41D3-BF54-BCFE96C2A492}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CECF20BA-035E-41D3-BF54-BCFE96C2A492}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CECF20BA-035E-41D3-BF54-BCFE96C2A492}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CECF20BA-035E-41D3-BF54-BCFE96C2A492}.Release|Any CPU.Build.0 = Release|Any CPU
+		{201568A6-D9BD-4C35-8F44-3BD5CE2FE8B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{201568A6-D9BD-4C35-8F44-3BD5CE2FE8B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{201568A6-D9BD-4C35-8F44-3BD5CE2FE8B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{201568A6-D9BD-4C35-8F44-3BD5CE2FE8B2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
