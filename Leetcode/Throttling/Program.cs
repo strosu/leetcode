@@ -8,15 +8,41 @@ class Program
     static void Main(string[] args)
     {
         Console.WriteLine("Hello, World!");
-        //var res = CountDroppedRequests(new[] { 1, 1, 1, 1 }); // 1
-        //var res2 = CountDroppedRequests(new[] { 1, 1, 1, 1, 2, 2, 2, 3, 3, 3, 4, 4, 4, 5, 5, 5, 6, 6, 6, 7, 7, 7, 7, 11, 11, 11, 11 }); // 7
-        var res3 = CountDroppedRequests(new[] { 1, 1, 1, 1, 2, 2, 2, 5, 5, 5, 6, 6, 6, 7, 7, 7, 7, 11, 11, 11, 11, 61, 121, 121 }); // 7
-        //var res = CountDroppedRequests(new[] { 1, 1, 1, 1 }); // 1
+        var res = CountDroppedRequests(new[] { 1, 1, 1, 1 }); // 1
+        var res2 = CountDroppedRequests(new[] { 1, 1, 1, 1, 2, 2, 2, 3, 3, 3, 4, 4, 4, 5, 5, 5, 6, 6, 6, 7, 7, 7, 7, 11, 11, 11, 11 }); // 7
+        var res3 = CountDroppedRequests(new[] { 1, 1, 1, 1, 2, 2, 2, 5, 5, 5, 6, 6, 6, 7, 7, 7, 7, 11, 11, 11, 11, 61, 121, 121 }); // 3
 
         Console.ReadLine();
     }
 
     static int CountDroppedRequests(int[] arrivalTimes)
+    {
+        var dropped = 0;
+
+        for (var i = 0; i < arrivalTimes.Length; i++)
+        {
+            if (i >= MaxPerSecond && arrivalTimes[i] == arrivalTimes[i - MaxPerSecond])
+            {
+                dropped++;
+                continue;
+            }
+
+            if (i >= MaxPer10Seconds && arrivalTimes[i] < arrivalTimes[i - MaxPer10Seconds] + 10)
+            {
+                dropped++;
+                continue;
+            }
+
+            if (i >= MaxPerMinute && arrivalTimes[i] < arrivalTimes[i - MaxPerMinute] + 60)
+            {
+                dropped++;
+            }
+        }
+
+        return dropped;
+    }
+
+    static int CountDroppedRequests3(int[] arrivalTimes)
     {
         var dropped = 0;
 
