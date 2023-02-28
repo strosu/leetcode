@@ -53,6 +53,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1361.ValidBinaryTree", "136
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mathworks", "Mathworks\Mathworks.csproj", "{201568A6-D9BD-4C35-8F44-3BD5CE2FE8B2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Throttling", "Throttling\Throttling.csproj", "{D5EA3A98-21ED-433F-9225-7FF5653022FE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -159,6 +161,10 @@ Global
 		{201568A6-D9BD-4C35-8F44-3BD5CE2FE8B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{201568A6-D9BD-4C35-8F44-3BD5CE2FE8B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{201568A6-D9BD-4C35-8F44-3BD5CE2FE8B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5EA3A98-21ED-433F-9225-7FF5653022FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5EA3A98-21ED-433F-9225-7FF5653022FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5EA3A98-21ED-433F-9225-7FF5653022FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5EA3A98-21ED-433F-9225-7FF5653022FE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
