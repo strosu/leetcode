@@ -3,57 +3,61 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33312.197
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusyIntersection", "BusyIntersection\BusyIntersection.csproj", "{BD6922A9-9FA8-4202-943C-C31061383D7F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BusyIntersection", "BusyIntersection\BusyIntersection.csproj", "{BD6922A9-9FA8-4202-943C-C31061383D7F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Seats", "Seats\Seats.csproj", "{58D64DF7-C5EB-4E6F-A692-24037A8CC3EB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Seats", "Seats\Seats.csproj", "{58D64DF7-C5EB-4E6F-A692-24037A8CC3EB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SumIntervals", "SumIntervals\SumIntervals.csproj", "{DA8605D5-9A56-4BC1-B5A2-70133D125CE5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SumIntervals", "SumIntervals\SumIntervals.csproj", "{DA8605D5-9A56-4BC1-B5A2-70133D125CE5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumberOfCombinations", "NumberOfCombinations\NumberOfCombinations.csproj", "{80361430-B3D6-4349-8074-F0970A83073E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NumberOfCombinations", "NumberOfCombinations\NumberOfCombinations.csproj", "{80361430-B3D6-4349-8074-F0970A83073E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StepsArrayNonDecreasing", "StepsArrayNonDecreasing\StepsArrayNonDecreasing.csproj", "{C794D99D-EB55-4F56-ABF3-D9FA92C1B24F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StepsArrayNonDecreasing", "StepsArrayNonDecreasing\StepsArrayNonDecreasing.csproj", "{C794D99D-EB55-4F56-ABF3-D9FA92C1B24F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SubstringHashValue", "SubstringHashValue\SubstringHashValue.csproj", "{004A6026-4EAB-48B5-9144-3685332D7C00}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SubstringHashValue", "SubstringHashValue\SubstringHashValue.csproj", "{004A6026-4EAB-48B5-9144-3685332D7C00}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaximumTop", "MaximumTop\MaximumTop.csproj", "{63596DF6-D4CC-49F0-AFC6-74567B8F4B0E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MaximumTop", "MaximumTop\MaximumTop.csproj", "{63596DF6-D4CC-49F0-AFC6-74567B8F4B0E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WalkingRobotSimulation2", "WalkingRobotSimulation2\WalkingRobotSimulation2.csproj", "{F49610B8-C88F-4ECA-AC9B-B4EDE2835B58}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WalkingRobotSimulation2", "WalkingRobotSimulation2\WalkingRobotSimulation2.csproj", "{F49610B8-C88F-4ECA-AC9B-B4EDE2835B58}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LatestBusTime", "LatestBusTime\LatestBusTime.csproj", "{E831B6F3-82EC-4719-958E-2A7EDF0D000D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LatestBusTime", "LatestBusTime\LatestBusTime.csproj", "{E831B6F3-82EC-4719-958E-2A7EDF0D000D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaxSubarray", "MaxSubarray\MaxSubarray.csproj", "{00F306AA-085B-43BF-8B99-62851816EFBC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MaxSubarray", "MaxSubarray\MaxSubarray.csproj", "{00F306AA-085B-43BF-8B99-62851816EFBC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaxPointsOnLine", "MaxPointsOnLine\MaxPointsOnLine.csproj", "{69E85FFC-BCDF-477A-8686-BF7CCF6C44C8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MaxPointsOnLine", "MaxPointsOnLine\MaxPointsOnLine.csproj", "{69E85FFC-BCDF-477A-8686-BF7CCF6C44C8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinLinesForChart", "MinLinesForChart\MinLinesForChart.csproj", "{C9A8EE21-62CC-4FF0-A8F2-4CC235AE0E0A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MinLinesForChart", "MinLinesForChart\MinLinesForChart.csproj", "{C9A8EE21-62CC-4FF0-A8F2-4CC235AE0E0A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NonDecreasingArray", "NonDecreasingArray\NonDecreasingArray.csproj", "{701EE102-AABE-45F7-9752-A576F885CA28}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NonDecreasingArray", "NonDecreasingArray\NonDecreasingArray.csproj", "{701EE102-AABE-45F7-9752-A576F885CA28}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CanReach", "CanReach\CanReach.csproj", "{4A5D1A30-E0C3-47EF-9AB9-DCBDE9D976B9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CanReach", "CanReach\CanReach.csproj", "{4A5D1A30-E0C3-47EF-9AB9-DCBDE9D976B9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JumpGameV", "JumpGameV\JumpGameV.csproj", "{BA39033D-6331-45A3-B701-42D8D96F016E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JumpGameV", "JumpGameV\JumpGameV.csproj", "{BA39033D-6331-45A3-B701-42D8D96F016E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppendKMinSum", "AppendKMinSum\AppendKMinSum.csproj", "{6C2F6B10-4CC7-4426-92F5-28CE450DF596}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AppendKMinSum", "AppendKMinSum\AppendKMinSum.csproj", "{6C2F6B10-4CC7-4426-92F5-28CE450DF596}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MakeDistinctCharsEqual", "MakeDistinctCharsEqual\MakeDistinctCharsEqual.csproj", "{F712E8C7-1673-441F-9AAA-89AD6A83C969}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MakeDistinctCharsEqual", "MakeDistinctCharsEqual\MakeDistinctCharsEqual.csproj", "{F712E8C7-1673-441F-9AAA-89AD6A83C969}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2530 Max Score", "2530 Max Score\2530 Max Score.csproj", "{60F1A8B1-92DA-4C74-93A3-0D4B27FA1327}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2530 Max Score", "2530 Max Score\2530 Max Score.csproj", "{60F1A8B1-92DA-4C74-93A3-0D4B27FA1327}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1237 Min Swaps to Equalize", "1237 Min Swaps to Equalize\1237 Min Swaps to Equalize.csproj", "{E9017A0E-F3BA-4FD1-AA5C-C48440252B7E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1237 Min Swaps to Equalize", "1237 Min Swaps to Equalize\1237 Min Swaps to Equalize.csproj", "{E9017A0E-F3BA-4FD1-AA5C-C48440252B7E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1657.StringsAreClose", "1657.StringsAreClose\1657.StringsAreClose.csproj", "{257FEE45-D903-41ED-9CCE-38E023F1E802}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1657.StringsAreClose", "1657.StringsAreClose\1657.StringsAreClose.csproj", "{257FEE45-D903-41ED-9CCE-38E023F1E802}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2333.MinSumSquareDifference", "2333.MinSumSquareDifference\2333.MinSumSquareDifference.csproj", "{9D6E3C80-89D8-4898-88D5-EB55FF2563A6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2333.MinSumSquareDifference", "2333.MinSumSquareDifference\2333.MinSumSquareDifference.csproj", "{9D6E3C80-89D8-4898-88D5-EB55FF2563A6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "866.PrimePalindrome", "866 prime palindrome\866.PrimePalindrome.csproj", "{D65DFC11-DEB7-4B11-B779-8AB4515FE10D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "866.PrimePalindrome", "866 prime palindrome\866.PrimePalindrome.csproj", "{D65DFC11-DEB7-4B11-B779-8AB4515FE10D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1654.MinJumps", "1654.MinJumps\1654.MinJumps.csproj", "{4AC717BE-76AF-4D1A-B3F5-334AD4D3049D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1654.MinJumps", "1654.MinJumps\1654.MinJumps.csproj", "{4AC717BE-76AF-4D1A-B3F5-334AD4D3049D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1361.ValidBinaryTree", "1361.ValidBinaryTree\1361.ValidBinaryTree.csproj", "{CECF20BA-035E-41D3-BF54-BCFE96C2A492}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1361.ValidBinaryTree", "1361.ValidBinaryTree\1361.ValidBinaryTree.csproj", "{CECF20BA-035E-41D3-BF54-BCFE96C2A492}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mathworks", "Mathworks\Mathworks.csproj", "{201568A6-D9BD-4C35-8F44-3BD5CE2FE8B2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mathworks", "Mathworks\Mathworks.csproj", "{201568A6-D9BD-4C35-8F44-3BD5CE2FE8B2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Throttling", "Throttling\Throttling.csproj", "{D5EA3A98-21ED-433F-9225-7FF5653022FE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Throttling", "Throttling\Throttling.csproj", "{D5EA3A98-21ED-433F-9225-7FF5653022FE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KnightDialer", "KnightDialer\KnightDialer.csproj", "{0179A9DA-C21D-4DB6-920E-C4E85DCA6596}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameOfLife", "GameOfLife\GameOfLife.csproj", "{40AA6AA4-A713-4B45-BC05-D0FDFFCE457D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -165,6 +169,14 @@ Global
 		{D5EA3A98-21ED-433F-9225-7FF5653022FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D5EA3A98-21ED-433F-9225-7FF5653022FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D5EA3A98-21ED-433F-9225-7FF5653022FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0179A9DA-C21D-4DB6-920E-C4E85DCA6596}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0179A9DA-C21D-4DB6-920E-C4E85DCA6596}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0179A9DA-C21D-4DB6-920E-C4E85DCA6596}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0179A9DA-C21D-4DB6-920E-C4E85DCA6596}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40AA6AA4-A713-4B45-BC05-D0FDFFCE457D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40AA6AA4-A713-4B45-BC05-D0FDFFCE457D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40AA6AA4-A713-4B45-BC05-D0FDFFCE457D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40AA6AA4-A713-4B45-BC05-D0FDFFCE457D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
