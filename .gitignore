@@ -353,3 +353,8 @@ perread.frontend/package-lock 13.29.44.json
 # sqlist temp files
 *.db-shm
 *.db-wal
+
+# OS Generated
+.DS_Store
+.DS_Store?
+._*
