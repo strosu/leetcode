@@ -70,6 +70,20 @@ public class MyLinkedList<T>
 
     public MyLinkedListNode<T> Last { get; set; }
 
+    public int Length { get; private set; }
+
+    public MyLinkedList()
+    {
+    }
+
+    public MyLinkedList(T[] values)
+    {
+        foreach (var value in values)
+        {
+            Add(value);
+        }
+    }
+
     public void Print()
     {
         var current = Head;
@@ -80,8 +94,30 @@ public class MyLinkedList<T>
         }
     }
 
+    public void AddFirst(T item)
+    {
+        Length++;
+
+        var node = new MyLinkedListNode<T>
+        {
+            Item = item
+        };
+
+        if (Head != null)
+        {
+            node.Next = Head;
+            Head.Prev = node;
+            Head = node;
+            return;
+        }
+
+        Head = Last = node;
+    }
+
     public void Add(T item)
     {
+        Length++;
+
         var node = new MyLinkedListNode<T>
         {
             Item = item
@@ -103,6 +139,8 @@ public class MyLinkedList<T>
 
     public void Remove(MyLinkedListNode<T> node)
     {
+        Length--;
+
         if (node == Head)
         {
             Head = node.Next;
