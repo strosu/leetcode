@@ -84,6 +84,19 @@ public class MyLinkedList<T>
         }
     }
 
+    public void Append(MyLinkedList<T> otherList)
+    {
+        if (Last == null)
+        {
+            Head = Last = otherList.Head;
+            return;
+        }
+
+        Last.Next = otherList.Head;
+
+        Length += otherList.Length;
+    }
+
     public void Print()
     {
         var current = Head;

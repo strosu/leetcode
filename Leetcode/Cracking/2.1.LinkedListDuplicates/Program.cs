@@ -37,6 +37,20 @@ class Program
         var pal2 = new MyLinkedList<int>(new[] { 1, 2, 3, 4, 4, 3, 2, 1 }).IsPalindrome();
         var pal3 = new MyLinkedList<int>(new[] { 1, 2, 3, 5, 4, 3, 2, 1 }).IsPalindrome();
 
+        var l1 = new MyLinkedList<int>(new int[] { 1, 2, 3 });
+        var l2 = new MyLinkedList<int>(new int[] { 4, 5, 6 });
+        l1.Append(l2);
+        var l3 = new MyLinkedList<int>(new int[] { 11, 22, 33 });
+        l3.Append(l2);
+
+        var intersects = l1.Intersects(l2); // true
+        var intersects2 = l1.IntersectsConstantSpace(l3); // true
+
+        var ll1 = new MyLinkedList<int>(Enumerable.Range(1, 10).ToArray());
+
+        ll1.Last.Next = ll1.Head.Next.Next.Next.Next;
+        var loop = ll1.GetCollision(); // true
+
         Console.ReadLine();
     }
 
