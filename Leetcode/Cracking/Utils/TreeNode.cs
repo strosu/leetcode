@@ -24,6 +24,48 @@ namespace _4.TreesAndGraphs
                 Nodes = new List<GraphNode<int>> { first, first1, first2, first3, first4, first5 }
             };
         }
+
+        public static Tree<int> GetBalancedTree()
+        {
+            return new Tree<int>
+            {
+                Root = new TreeNode<int>
+                {
+                    Value = 10,
+                    Left = new TreeNode<int>
+                    {
+                        Value = 11,
+                        Left = new TreeNode<int>
+                        {
+                            Value = 123
+                        },
+                        Right = new TreeNode<int>
+                        {
+                            Value = 1234
+                        }
+                    },
+                    Right = new TreeNode<int>
+                    {
+                        Value = 22
+                    }
+                }
+            };
+        }
+
+        public static Tree<int> GetUnbalancedTree()
+        {
+            return new Tree<int>
+            {
+                Root = new TreeNode<int>
+                {
+                    Left = new TreeNode<int>
+                    {
+                        Left = new TreeNode<int>(),
+                        Right = new TreeNode<int>()
+                    }
+                }
+            };
+        }
     }
 
     public class GraphNode<T>
@@ -55,6 +97,8 @@ namespace _4.TreesAndGraphs
         public TreeNode<T> Left { get; set; }
 
         public TreeNode<T> Right { get; set; }
+
+        public TreeNode<T> Parent { get; set; }
     }
 
     public class Tree<T>

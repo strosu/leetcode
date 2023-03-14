@@ -5,14 +5,14 @@ namespace _4.TreesAndGraphs
     {
         public static Tree<int> BuildBalancedBinaryTree(this int[] input)
         {
-            var rootNode = BuildRecursively(input, 0, input.Length - 1);
+            var rootNode = BuildRecursively(input, 0, input.Length - 1, null);
             return new Tree<int>
             {
                 Root = rootNode
             };
         }
 
-        private static TreeNode<int> BuildRecursively(int[] input, int start, int end)
+        private static TreeNode<int> BuildRecursively(int[] input, int start, int end, TreeNode<int> parent)
         {
             if (start > end)
             {
@@ -22,12 +22,17 @@ namespace _4.TreesAndGraphs
             var medianPosition = (start + end) / 2;
 
             var median = input[medianPosition];
-            return new TreeNode<int>
+
+            var node = new TreeNode<int>
             {
                 Value = median,
-                Left = BuildRecursively(input, start, medianPosition - 1),
-                Right = BuildRecursively(input, medianPosition + 1, end)
+                Parent = parent
             };
+
+            node.Left = BuildRecursively(input, start, medianPosition - 1, node);
+            node.Right = BuildRecursively(input, medianPosition + 1, end, node);
+
+            return node;
         }
     }
 }
