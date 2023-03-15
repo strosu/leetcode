@@ -20,7 +20,7 @@ namespace _4.TreesAndGraphs
                     return true;
                 }
 
-                foreach (var child in current.Children)
+                foreach (var child in current.OutGoing)
                 {
                     if (!visited.Contains(child))
                     {

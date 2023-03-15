@@ -70,23 +70,46 @@ namespace _4.TreesAndGraphs
 
     public class GraphNode<T>
     {
-        private T _value;
-        public List<GraphNode<T>> Children { get; } = new List<GraphNode<T>>();
+        public T Value { get; set; }
+        public List<GraphNode<T>> OutGoing { get; } = new List<GraphNode<T>>();
+
+        public List<GraphNode<T>> Incoming { get; } = new List<GraphNode<T>>();
 
         public GraphNode(T item)
         {
-            _value = item;
+            Value = item;
         }
 
         public void AddEdge(GraphNode<T> child)
         {
-            Children.Add(child);
+            OutGoing.Add(child);
+            child.Incoming.Add(this);
         }
     }
 
     public class Graph<T>
     {
-        public List<GraphNode<T>> Nodes { get; set; }
+        public List<GraphNode<T>> Nodes { get; set; } = new List<GraphNode<T>>();
+
+        public void RemoveEdge(GraphNode<T> from, GraphNode<T> to)
+        {
+            from.OutGoing.Remove(to);
+            to.Incoming.Remove(from);
+        }
+
+        public void RemoveNode(GraphNode<T> node)
+        {
+            Nodes.Remove(node);
+            foreach (var to in node.Incoming)
+            {
+                to.OutGoing.Remove(node);
+            }
+
+            foreach (var from in node.OutGoing)
+            {
+                from.Incoming.Remove(node);
+            }
+        }
     }
 
 
