@@ -35,8 +35,43 @@ class Program
         //var deconstructed = binary.Root.GetComposingLists();
 
         CheckSubTree();
+        PathsWithSum();
 
         Console.ReadLine();
+    }
+
+    static void PathsWithSum()
+    {
+        var root = new TreeNode<int>
+        {
+            Value = 1,
+            Left = new TreeNode<int>
+            {
+                Value = 2,
+                Left = new TreeNode<int>
+                {
+                    Value = 7
+                },
+                Right = new TreeNode<int>
+                {
+                    Value = 5,
+                    Left = new TreeNode<int>
+                    {
+                        Value = 8
+                    }
+                }
+            },
+            Right = new TreeNode<int>
+            {
+                Value = 3,
+                Left = new TreeNode<int>
+                {
+                    Value = 5
+                }
+            }
+        };
+
+        var result = root.GetNumberOfPaths(8); // 3
     }
 
     static void CheckSubTree()
