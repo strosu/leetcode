@@ -122,6 +122,8 @@ namespace _4.TreesAndGraphs
         public TreeNode<T> Right { get; set; }
 
         public TreeNode<T> Parent { get; set; }
+
+        public int LeftChildren { get; set; }
     }
 
     public class Tree<T>
@@ -148,6 +150,83 @@ namespace _4.TreesAndGraphs
             Print(current.Left);
             Console.Write($"{current.Value} ");
             Print(current.Right);
+        }
+    }
+
+    public class BinaryTree : Tree<int>
+    {
+        public int GetSmallerThan(int value)
+        {
+            return GetSmallerThanRecursively(Root, value);
+        }
+
+        private int GetSmallerThanRecursively(TreeNode<int> currentNode, int value)
+        {
+            if (currentNode == null)
+            {
+                return 0;
+            }
+
+            if (currentNode.Value == value)
+            {
+                return currentNode.LeftChildren;
+            }
+
+            if (currentNode.Value > value)
+            {
+                return GetSmallerThanRecursively(currentNode.Left, value);
+            }
+
+            return currentNode.LeftChildren + 1 + GetSmallerThanRecursively(currentNode.Right, value);
+        }
+
+        public void Add(int value)
+        {
+            if (Root == null)
+            {
+                Root = new TreeNode<int>
+                {
+                    Value = value
+                };
+
+                return;
+            }
+
+            AddRecursively(Root, value);
+        }
+
+        private void AddRecursively(TreeNode<int> currentNode, int value)
+        {
+            if (currentNode.Value > value)
+            {
+                if (currentNode.Left == null)
+                {
+                    currentNode.Left = new TreeNode<int>
+                    {
+                        Value = value,
+                        Parent = currentNode
+                    };
+
+                    return;
+                }
+
+                currentNode.LeftChildren++;
+                AddRecursively(currentNode.Left, value);
+                return;
+            }
+
+            if (currentNode.Right == null)
+            {
+                currentNode.Right = new TreeNode<int>
+                {
+                    Value = value,
+                    Parent = currentNode
+                };
+
+                return;
+            }
+
+            AddRecursively(currentNode.Right, value);
         }
     }
 }
